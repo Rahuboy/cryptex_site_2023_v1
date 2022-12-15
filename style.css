@@ -477,7 +477,7 @@
     color: #001A28;
 }
 
-.legacy-box-one {
+/* .legacy-box-one {
     position: absolute;
     width: 335px;
     height: 197px;
@@ -486,9 +486,9 @@
 
     background: #FFFFFF;
     border-radius: 3px;
-}
+} */
 
-.legacy-box-one-heading {
+/* .legacy-box-one-heading {
     position: relative;
     width: 76px;
     height: 30px;
@@ -499,15 +499,15 @@
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 30px;
+    line-height: 30px; */
     /* identical to box height */
 
-    text-align: center;
+    /* text-align: center;
 
     color: #000000;
-}
+} */
 
-.legacy-box-one-text {
+/* .legacy-box-one-text {
     position: relative;
     width: 267px;
     height: 94px;
@@ -521,7 +521,92 @@
     line-height: 21px;
 
     color: #000000;
-}
+} */
+
+
+.legacy-card-one {
+    position: absolute;
+    width: 335px;
+    height: 197px;
+    left: 198px;
+    top: 3286px;
+    float: left;
+    perspective: 500px;
+  }
+  
+  .legacy-card-one-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  
+  .legacy-card-one:hover .legacy-card-one-content {
+    transform: rotateY( 180deg ) ;
+    transition: transform 0.5s;
+  }
+  
+  .legacy-card-one-front,
+  .legacy-card-one-back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: white;
+    color: #03446A;
+    text-align: center;
+    border-radius: 5px;
+    backface-visibility: hidden;
+
+
+  }
+  
+  .legacy-card-one-back {
+    /* background: #03446A;
+    color: white; */
+    transform: rotateY( 180deg );
+
+  }
+
+  .legacy-card-one-front-text {
+    position: relative;
+    width: 267px;
+    height: 94px;
+    left: 29px;
+    top: 77px;
+
+    font-family: 'Marcellus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+  }
+
+  .legacy-card-one-back-text {
+
+    position: relative;
+    width: 267px;
+    height: 94px;
+    left: 29px;
+    top: 50px;
+
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+  }
+
+
+
+
 
 .legacy-box-two {
     position: absolute;
@@ -569,7 +654,91 @@
 }
 
 
-.legacy-box-three {
+.legacy-card-two {
+    position: absolute;
+    width: 335px;
+    height: 231px;
+    left: 198px;
+    top: 3500px;
+    float: left;
+    perspective: 500px;
+  }
+  
+  .legacy-card-two-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  
+  .legacy-card-two:hover .legacy-card-two-content {
+    transform: rotateY( 180deg ) ;
+    transition: transform 0.5s;
+  }
+  
+  .legacy-card-two-front,
+  .legacy-card-two-back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: white;
+    color: #03446A;
+    text-align: center;
+    border-radius: 5px;
+    backface-visibility: hidden;
+
+
+  }
+  
+  .legacy-card-two-back {
+    /* background: #03446A;
+    color: white; */
+    transform: rotateY( 180deg );
+
+  }
+
+  .legacy-card-two-front-text {
+    position: relative;
+    width: 267px;
+    height: 94px;
+    left: 29px;
+    top: 77px;
+
+    font-family: 'Marcellus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+  }
+
+  .legacy-card-two-back-text {
+
+    position: relative;
+    width: 267px;
+    height: 94px;
+    left: 29px;
+    top: 50px;
+
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+  }
+
+
+
+
+
+/* .legacy-box-three {
     position: absolute;
     width: 335px;
     height: 253px;
@@ -579,6 +748,7 @@
     background: #FFFFFF;
     border-radius: 3px;
 }
+
 
 
 .legacy-box-three-heading {
@@ -612,9 +782,90 @@
     line-height: 21px;
 
     color: #000000;
-}
+} */
 
-.legacy-box-four {
+
+.legacy-card-three {
+    position: absolute;
+    width: 335px;
+    height: 253px;
+    left: 553px;
+    top: 3286px;
+    float: left;
+    perspective: 500px;
+  }
+  
+  .legacy-card-three-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  
+  .legacy-card-three:hover .legacy-card-three-content {
+    transform: rotateY( 180deg ) ;
+    transition: transform 0.5s;
+  }
+  
+  .legacy-card-three-front,
+  .legacy-card-three-back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: white;
+    color: #03446A;
+    text-align: center;
+    border-radius: 5px;
+    backface-visibility: hidden;
+
+
+  }
+  
+  .legacy-card-three-back {
+    /* background: #03446A;
+    color: white; */
+    transform: rotateY( 180deg );
+
+  }
+
+  .legacy-card-three-front-text {
+    position: relative;
+    width: 267px;
+    height: 94px;
+    left: 29px;
+    top: 77px;
+
+    font-family: 'Marcellus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+  }
+
+  .legacy-card-three-back-text {
+
+    position: relative;
+    width: 267px;
+    height: 94px;
+    left: 29px;
+    top: 50px;
+
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+  }
+
+/* .legacy-box-four {
     position: absolute;
     width: 335px;
     height: 175px;
@@ -639,10 +890,10 @@
     line-height: 30px;
     /* text-align: center; */
 
-    color: #000000;
-}
+    /* color: #000000; */
+/* } */
 
-.legacy-box-four-text {
+/* .legacy-box-four-text {
     position: relative;
     width: 267px;
     height: 94px;
@@ -656,9 +907,94 @@
     line-height: 21px;
 
     color: #000000;
-}
+}  */
 
-.legacy-box-five {
+
+.legacy-card-four {
+    position: absolute;
+    width: 335px;
+    height: 175px;
+    left: 552px;
+    top: 3556px;
+    float: left;
+    perspective: 500px;
+  }
+  
+  .legacy-card-four-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  
+  .legacy-card-four:hover .legacy-card-four-content {
+    transform: rotateY( 180deg ) ;
+    transition: transform 0.5s;
+  }
+  
+  .legacy-card-four-front,
+  .legacy-card-four-back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: white;
+    color: #03446A;
+    text-align: center;
+    border-radius: 5px;
+    backface-visibility: hidden;
+
+
+  }
+  
+  .legacy-card-four-back {
+    /* background: #03446A;
+    color: white; */
+    transform: rotateY( 180deg );
+
+  }
+
+  .legacy-card-four-front-text {
+    position: relative;
+    width: 267px;
+    height: 94px;
+    left: 29px;
+    top: 77px;
+
+    font-family: 'Marcellus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+  }
+
+  .legacy-card-four-back-text {
+
+    position: relative;
+    width: 267px;
+    height: 94px;
+    left: 29px;
+    top: 50px;
+
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+  }
+
+
+
+
+
+/* .legacy-box-five {
     position: absolute;
     width: 336px;
     height: 445px;
@@ -683,10 +1019,10 @@
     line-height: 30px;
     /* text-align: center; */
 
-    color: #000000;
-}
+    /* color: #000000;  */
+/* } */
 
-.legacy-box-five-text {
+/* .legacy-box-five-text {
     position: relative;
     width: 267px;
     height: 94px;
@@ -700,7 +1036,92 @@
     line-height: 21px;
 
     color: #000000;
-}
+}  */
+
+
+.legacy-card-five {
+    position: absolute;
+    width: 336px;
+    height: 445px;
+    left: 907px;
+    top: 3286px;
+    float: left;
+    perspective: 500px;
+  }
+  
+  .legacy-card-five-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  
+  .legacy-card-five:hover .legacy-card-five-content {
+    transform: rotateY( 180deg ) ;
+    transition: transform 0.5s;
+  }
+  
+  .legacy-card-five-front,
+  .legacy-card-five-back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: white;
+    color: #03446A;
+    text-align: center;
+    border-radius: 5px;
+    backface-visibility: hidden;
+
+
+  }
+  
+  .legacy-card-five-back {
+    /* background: #03446A;
+    color: white; */
+    transform: rotateY( 180deg );
+
+  }
+
+  .legacy-card-five-front-text {
+    position: relative;
+    width: 267px;
+    height: 94px;
+    left: 29px;
+    top: 180px;
+
+    font-family: 'Marcellus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+  }
+
+  .legacy-card-five-back-text {
+
+    position: relative;
+    width: 267px;
+    height: 94px;
+    left: 29px;
+    top: 50px;
+
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+  }
+
+
+
+
 
 
 .section-four-heading::selection {
@@ -793,4 +1214,10 @@
     left: 851px;
     top: 4242px;
 }
+
+
+
+
+  
+ 
 
