@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+.no-select {
+    user-select: none;
+}
+
 
 .section-one {
     background: #095869;
@@ -47,6 +51,110 @@
     color: #E5B850;
 }
 
+.section-one-heading::selection {
+    background: #E5B850;
+    color: #095869;
+}
+
+.btn-about {
+    
+    position: absolute;
+    width: 184.18px;
+    height: 62px;
+    left: 267px;
+    top: 210px;
+
+    background: linear-gradient(253.59deg, rgba(206, 133, 47, 0.134) 44.74%, rgba(194, 134, 62, 0.174) 54.03%, rgba(0, 0, 0, 0) 60.59%), #FFD25A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+.btn-howtoplay {
+    position: absolute;
+    width: 180.18px;
+    height: 69.79px;
+    left: 265px;
+    top: 472px;
+
+    background: linear-gradient(253.59deg, rgba(206, 133, 47, 0.134) 44.74%, rgba(194, 134, 62, 0.174) 54.03%, rgba(0, 0, 0, 0) 60.59%), #FFD25A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+.btn-register {
+    position: absolute;
+    width: 198px;
+    height: 70.98px;
+    left: 621px;
+    top: 652px;
+
+    background: linear-gradient(253.59deg, rgba(206, 133, 47, 0.134) 44.74%, rgba(194, 134, 62, 0.174) 54.03%, rgba(0, 0, 0, 0) 60.59%), #EAC155;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+.btn-contact {
+    position: absolute;
+    width: 184.18px;
+    height: 70px;
+    left: 975px;
+    top: 472px;
+
+    background: linear-gradient(253.59deg, rgba(206, 133, 47, 0.134) 44.74%, rgba(194, 134, 62, 0.174) 54.03%, rgba(0, 0, 0, 0) 60.59%), #FFD25A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    
+}
+.btn-legacy {
+    position: absolute;
+    width: 184.18px;
+    height: 62px;
+    left: 975px;
+    top: 210px;
+    
+    background: linear-gradient(253.59deg, rgba(206, 133, 47, 0.134) 44.74%, rgba(194, 134, 62, 0.174) 54.03%, rgba(0, 0, 0, 0) 60.59%), #FFD25A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px; 
+}
+
+
+.section-one-btn-text{
+    text-decoration: none;
+    color: initial;
+    width: 184px;
+    height: 62px;
+    left: 267px;
+    top: 210px;
+
+    font-family: 'Marcellus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* text-align: center; */
+}
+
+.cryptex-logo {
+    position: absolute;
+    width: 59px;
+    height: 82px;
+    left: 25px;
+    top: 16px;
+}
+
+.elan-logo {
+    position: absolute;
+    width: 165px;
+    height: 130px;
+    left: 1275px;
+    top: 0px;
+}
+
+
+
+
+
+
 .section-two {
     background: #FFF4CC;
     height: 766px;
@@ -69,6 +177,12 @@
     color: #57471C;
 }
 
+.section-two-text-one::selection {
+    background: #57471C;
+    color: #FFF4CC;
+}
+
+
 .section-two-text-two  {
     position: absolute;
     width: 983px;
@@ -85,6 +199,11 @@
     color: #57471C;
 }
 
+.section-two-text-two::selection {
+    background: #57471C;
+    color: #FFF4CC;
+}
+
 
 .maze-three {
     position: absolute;
@@ -95,6 +214,10 @@
 
     /* transform: rotate(-144.55deg); */
 }
+
+
+
+
 
 
 .section-three {
@@ -141,6 +264,11 @@
     line-height: 100.39%;
     text-align: center;
     color: #035D71;
+}
+
+.section-three-heading::selection {
+    background: #035D71;
+    color: #FFFFFF;
 }
 
 .section-three-text-one {
@@ -287,13 +415,37 @@
 
 }
 
+.section-three-text-one::selection {
+    background: #C2863E;
+    color: #FFFFFF;
+}
+.section-three-text-two::selection {
+    background: #C2863E;
+    color: #FFFFFF;
+}
+.section-three-text-three::selection {
+    background: #C2863E;
+    color: #FFFFFF;
+}
+.section-three-text-four::selection {
+    background: #C2863E;
+    color: #FFFFFF;
+}
+.section-three-text-five::selection {
+    background: #C2863E;
+    color: #FFFFFF;
+}
+
+
+
+
+
 
 .section-four {
     background: #FFF4CC;
     height: 1136px;
     overflow: hidden;
 } 
-
 
 
 .section-four-circle {
@@ -551,6 +703,20 @@
 }
 
 
+.section-four-heading::selection {
+    background: #57471C;
+    color: #FFF4CC;
+}
+
+.legacy-box-text::selection {
+    background: #C2863E;
+    color: #FFFFFF;
+}
+
+
+
+
+
 
 .section-five {
     background: #095869;
@@ -593,23 +759,16 @@
     color: #FFFFFF;
 }
 
+
 .section-five-links a:visited {
     color: #FFFFFF;
 }
 
-/* .social-media {
-    overflow: hidden;
 
-} */
-/* 
-.fa-brands.fa-discord {
-    position: absolute;
-    width: 610px;
-    height: 490px;
-    left: 692px;
-    top: 4300px;
-    color: #FFFFFF;
-} */
+.section-five-heading::selection {
+    color: #035D71;
+    background: #FFFFFF;  
+}
 
 .instagram-logo {
     position: absolute;
