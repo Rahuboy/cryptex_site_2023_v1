@@ -1785,18 +1785,11 @@
 
 
     .section-four {
-        background: #FFF4CC;
-        height: 1136px;
         height: calc(100vh * 634/900);
-        overflow: hidden;
     }  
     
     
     .section-four-circle {
-        background: #095869;
-        border-radius: 50%;
-        display: inline-block;
-        position: absolute;
         width: 1204px;
         width: calc(100vw * 328/415);
     
@@ -1804,10 +1797,11 @@
         height: calc(100vh * 328/900);
     
         left: 121px;
-        left: calc(100vw * 44/415);
+        left: calc(100vw * 45/415);
     
         top: 1034px;    
-        top: calc(100vh * 2500/900);
+        top: calc(100vh * 593/900);
+        z-index: 50;
     
     } 
     
@@ -2275,7 +2269,6 @@
 
     .section-five{
         height: calc(100vh * 192/900);
-        overflow: hidden;
     }
 
     .discord-logo{
