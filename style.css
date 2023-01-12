@@ -1243,60 +1243,39 @@
 
 .section-five-heading {
     position: absolute;
-    width: 218px;
     width: calc(100vw * 218/1440);
-
-
-    height: 42px;
     height: calc(100vh * 42/900);
-
-    left: 614px;
     left: calc(100vw * 614/1440);
-
-    top: 4037px;
     top: calc(100vh * 4037/900);
-
-
     font-family: 'Marcellus';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
     font-size: calc(100vw * 32/1440);
-
-    line-height: 40px;
     line-height: calc(100vh * 40/900);
-
     text-align: center;
-
     color: #FFFFFF;
+    overflow: hidden;
 }
 
 .section-five-links {
     position: absolute;
-    width: 193px;
     width: calc(100vw * 193/1440);
-
-    height: 160px;
     height: calc(100vh * 160/900);
-
-    left: 627px;
     left: calc(100vw * 627/1440);
-
-    top: 4100px;
     top: calc(100vh * 4100/900);
-
-
     font-family: 'Marcellus';
     font-style: normal;
     font-weight: 300;
-    font-size: 24px;
     font-size: calc(100vw * 24/1440);
-    line-height: 30px;
     line-height: calc(100vh * 30/900);
     text-align: center;
     text-decoration-line: underline;
-
     color: #FFFFFF;
+    overflow: hidden;
+}
+
+.section-five-links ul{
+    overflow: hidden;
 }
 
 
