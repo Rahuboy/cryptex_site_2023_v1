@@ -233,7 +233,7 @@
     /* top: -250px; */
     top: calc(-100vh * 250/900);
     z-index: 1;
-    animation: maze-rotate 1000s linear 0s infinite normal;
+    animation: maze-rotate 300s linear 0s infinite normal;
 }
 
 .cryptex-logo {
@@ -342,11 +342,11 @@
     position: absolute;
     
     /* left: 1147px; */
-    left: calc(100vw * 1147/1440);
+    left: calc(100vw * 1300/1440);
     /* top: 1322px; */
-    top : calc(100vh * 1332/900);
+    top : calc(100vh * 1460/900);
     width: calc(100vw * 290/1440);
-
+    animation: maze-rotate 100s linear 0s infinite normal;
 }
 
 
@@ -554,13 +554,13 @@
 
 .maze-two {
     position: absolute;
-    left: calc(100vw * 0/1440);
+    left: calc(100vw * -400/1440);
     /* top: 1700px; */
-    top: calc(100vh * 1770/900);
+    top: calc(100vh * 1850/900);
     /* width: calc(100vw * 847.73/1440); */
-    height: calc(100vh * 1120/900); 
+    height: calc(100vh * 847.73/900); 
     z-index: 1;
-
+    animation: maze-rotate 200s linear 0s infinite normal;
 
     /* transform: rotate(-144.55deg); */
 }
@@ -1270,7 +1270,7 @@
     line-height: calc(100vh * 30/900);
     text-align: center;
     text-decoration-line: underline;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     overflow: hidden;
 }
 
@@ -1278,9 +1278,13 @@
     overflow: hidden;
 }
 
+.section-five-links a {
+    color: #FFFFFF !important;
+}
+
 
 .section-five-links a:visited {
-    color: #FFFFFF;
+    color: #FFFFFF !important;
 }
 
 
@@ -1365,6 +1369,20 @@
         height: 775px;
         height: calc(100vh * 775/900);
 
+    }
+
+    .section-one-heading {
+        position: absolute;
+        width: calc(100vw * 168/415);
+        height: calc(100vh * 32/900);
+        left: calc(100vw * 123/415);
+        top: calc(100vh * 402/900);
+        font-family: 'Marcellus';
+        font-style: normal;
+        font-weight: 400;
+        font-size: calc(100vw * 20/415);
+        line-height: calc(100vh * 25/900);
+       
     }
 
     .btn-about {
