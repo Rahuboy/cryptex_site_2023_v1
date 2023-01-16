@@ -480,7 +480,7 @@
     width: calc(100vw * 710/1440);
 
     height: 83px;
-    height: calc(100vh * 83/900);
+    height: calc(100vh * 88/900);
 
     left: 365px;
     left: calc(100vw * 365/1440);
