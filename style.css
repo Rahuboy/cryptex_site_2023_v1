@@ -255,16 +255,16 @@
 .elan-logo {
     position: absolute;
     /* width: 165px; */
-    width: calc(100vw * 165/1440);
+    width: calc(100vw * 280/1440);
 
     /* height: 130px; */
-    height: calc(100vh * 130/900);
+    height: calc(100vh * 280/900);
 
     /* left: 1275px; */
-    left: calc(100vw * 1275/1440);
+    left: calc(100vw * 1225/1440);
 
     /* top: 0px; */
-    top: calc(100vh * 0/900);
+    top: calc(100vh * -75/900);
     z-index: 99;
 }
 
@@ -1360,6 +1360,10 @@
         overflow-x: hidden;
     }
 
+    .pages{
+        overflow-x: hidden;
+    }
+
 /* ########################################## SECTION ONE (MOBILE)  ########################################## */
 
 
@@ -1453,10 +1457,10 @@
 
     .elan-logo {
         position: absolute;
-        width: calc(100vw * 78/415);
-        height: calc(100vh * 62/900);
+        width: calc(100vw * 90/415);
+        height: calc(100vh * 90/900);
         left: calc(100vw * 340/415);
-        /* top: calc(100vh * 42.2/900); */
+        top: calc(100vh * -10/900);
     }
 
     .cryptex-logo{
