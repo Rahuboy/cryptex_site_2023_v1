@@ -49,9 +49,53 @@ function myFunction() {
   navigator.clipboard.writeText(copyText);
   document.getElementById("email-heading").innerHTML = "Email Copied!";
   setTimeout(() => {
-    document.getElementById("email-heading").innerHTML = "cryptex@elan.org.in";
+    document.getElementById("email-heading").innerHTML = "Email";
   }, "2000")
 
 }
 
+
+// const observer = new IntersectionObserver(entries => {
+//   // Loop over the entries
+//   entries.forEach(entry => {
+//     // If the element is visible
+//     if (entry.isIntersecting) {
+//       // Add the animation class
+//       entry.target.classList.add('fade-in-animation');
+//     }
+//   });
+// });
+
+// observer.observe(document.querySelector('.section-two-text-one-wrapper'));
+// observer.observe(document.querySelector('.section-three-heading-wrapper'));
+// observer.observe(document.querySelector('.section-three-text-one-wrapper'));
+// observer.observe(document.querySelector('.section-three-text-two-wrapper'));
+// observer.observe(document.querySelector('.section-three-text-three-wrapper'));
+
+
+const faders = document.querySelectorAll(".fade-in");
+
+const appearOptions = {
+  threshold: 0,
+  rootMargin: "0px 0px -250px 0px"
+};
+
+const appearOnScroll = new IntersectionObserver(function(
+  entries,
+  appearOnScroll
+) {
+  entries.forEach(entry => {
+    if (!entry.isIntersecting) {
+      return;
+    } else {
+      entry.target.classList.add("appear");
+      appearOnScroll.unobserve(entry.target);
+    }
+  });
+},
+appearOptions);
+
+faders.forEach(fader => {
+  appearOnScroll.observe(fader);
+});
 

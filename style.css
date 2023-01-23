@@ -46,7 +46,28 @@ html {
 }
 
 
+/* @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 
+  @media (prefers-reduced-motion: no-preference) {
+    .fade-in-animation {
+        animation: fadeIn 1.5s ease 0s 1 forwards normal;
+    }
+  } */
+
+
+  .fade-in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+  }
+  
+  .fade-in.appear {
+    opacity: 1;
+  }
+
+  
 /* ########################################## SECTION ONE (MAIN)  ########################################## */
 
 .section-one {
@@ -109,6 +130,7 @@ html {
     z-index: 110;
 
     overflow-y: hidden;
+    animation: fadeIn 1s;
 }
 
 .section-one-heading::selection {
@@ -280,16 +302,9 @@ html {
 
 .cryptex-logo {
     position: absolute;
-    /* width: 59px; */
     width: calc(100vw * 59/1440);
-
-    /* height: 82px; */
     height: calc(100vh * 82/900);
-
-    /* left: 25px; */
     left: calc(100vw * 25/1440);
-
-    /* top: 16px; */
     top: calc(100vh * 16/900);
     z-index: 99;
 }
@@ -330,7 +345,6 @@ html {
 
 .section-two-text-one {
 
-    
     /* width: 983px;
     height: 210px; */
     padding-left: max(17vw, 2rem);
@@ -350,7 +364,11 @@ html {
 
     color: #57471C;
     overflow-y: hidden;
+    animation: fadeIn 2s;
+
 }
+
+
 
 .section-two-text-one::selection {
     background: #57471C;
@@ -1000,7 +1018,7 @@ html {
     width: calc(100vw * 225/1440);
 
     height: 31.22px;
-    height: calc(100vh * 31.22/900);
+    height: calc(100vh * 35.22/900);
 
     left: 23px;
     left: calc(100vw * 23/1440);
@@ -1389,6 +1407,10 @@ html {
 
 }
 
+.email-heading-mobile {
+    display: none;
+}
+
 
 .clipboard{
     position: absolute;
@@ -1435,7 +1457,7 @@ html {
 .email-heading{
     width: calc(100vw * 312/1440);
     height: calc(100vh * 23/900);
-    left: calc(100vw * 727/1440);
+    left: calc(100vw * 722/1440);
     top: calc(100vh * 4305/900);
 }
   
@@ -2065,6 +2087,48 @@ html {
         top: calc(100vh * 2637.5/900);
         z-index: 500;
     }
+
+    .clipboard{
+        width: calc(100vw * 22/415);
+        height: calc(100vh * 18/900);
+        left: calc(100vw * 319/415);
+        top: calc(100vh * 2637.5/900);
+        opacity: 0;
+    }
+    
+    .logo-heading{
+        position: absolute;
+        font-family: 'Marcellus';
+        font-style: normal;
+        font-weight: 400;
+        font-size: calc(100vw * 10/415);
+        line-height: calc(100vh * 13/900);
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .instagram-heading{
+        width: calc(100vw * 61/415);
+        height: calc(100vh * 13/900);
+        left: calc(100vw * 56/415);
+        top: calc(100vh * 2659/900);
+    }
+    
+    .discord-heading{
+        width: calc(100vw * 66/415);
+        height: calc(100vh * 13/900);
+        left: calc(100vw * 173/415);
+        top: calc(100vh * 2659/900);
+    }
+    
+    .email-heading{
+        width: calc(100vw * 91/415);
+        height: calc(100vh * 13/900);
+        left: calc(100vw * 284/415);
+        top: calc(100vh * 2659/900);
+    }
+
+  
 
     .section-five-heading{
         display: none;
